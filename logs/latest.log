@@ -1,18 +1,56 @@
-[05:47:36] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
-	at arm.b(SourceFile:62) ~[server-1.21.6.jar:?]
-	at arj.a(SourceFile:143) ~[server-1.21.6.jar:?]
-	at ark.<init>(SourceFile:12) ~[server-1.21.6.jar:?]
-	at net.minecraft.server.Main.main(SourceFile:117) ~[server-1.21.6.jar:?]
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[05:47:36] [ServerMain/WARN]: Failed to load eula.txt
-[05:47:36] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[07:20:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:20:24] [ServerMain/INFO]: Loaded 1407 recipes
+[07:20:24] [ServerMain/INFO]: Loaded 1520 advancements
+[07:20:24] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[07:20:24] [Server thread/INFO]: Loading properties
+[07:20:24] [Server thread/INFO]: Default game type: SURVIVAL
+[07:20:24] [Server thread/INFO]: Generating keypair
+[07:20:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:20:25] [Server thread/INFO]: Using epoll channel type
+[07:20:25] [Server thread/INFO]: Preparing level "world"
+[07:20:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:35] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[07:20:36] [Server thread/INFO]: Time elapsed: 10555 ms
+[07:20:36] [Server thread/INFO]: Done (10.931s)! For help, type "help"
+[07:21:01] [User Authenticator #1/INFO]: UUID of player Beancong67 is a749b92b-b6ed-495a-84e6-114a93a08c64
+[07:21:02] [Server thread/INFO]: Beancong67[/218.147.105.173:55376] logged in with entity id 29 at (-4.5, 65.0, -9.5)
+[07:21:02] [Server thread/INFO]: Beancong67 joined the game
+[07:21:51] [Server thread/INFO]: Beancong67 lost connection: Disconnected
+[07:21:51] [Server thread/INFO]: Beancong67 left the game
+[07:21:55] [User Authenticator #2/INFO]: UUID of player Beancong67 is a749b92b-b6ed-495a-84e6-114a93a08c64
+[07:21:56] [Server thread/INFO]: Beancong67[/218.147.105.173:55404] logged in with entity id 593 at (-31.24759636267366, 64.0, -6.966627421307643)
+[07:21:56] [Server thread/INFO]: Beancong67 joined the game
+[07:22:14] [Server thread/INFO]: Beancong67 lost connection: Disconnected
+[07:22:14] [Server thread/INFO]: Beancong67 left the game
+[07:23:14] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[07:23:15] [Server thread/INFO]: Stopping the server
+[07:23:15] [Server thread/INFO]: Stopping server
+[07:23:15] [Server thread/INFO]: Saving players
+[07:23:15] [Server thread/INFO]: Saving worlds
+[07:23:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:23:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07:23:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07:23:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:23:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:23:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:23:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
