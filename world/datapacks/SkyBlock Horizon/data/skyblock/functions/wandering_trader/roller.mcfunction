@@ -1,5 +1,0 @@
-function skyblock:wandering_trader/roll0
-function skyblock:wandering_trader/roll1
-function skyblock:wandering_trader/roll2
-function skyblock:wandering_trader/roll3
-function skyblock:wandering_trader/roll4
