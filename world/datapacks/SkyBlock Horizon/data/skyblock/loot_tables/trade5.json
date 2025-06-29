@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:podzol",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\",Count:3b},TradeOffer:1b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:packed_ice",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\",Count:3b},TradeOffer:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "better_traders:fish_buckets",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:5b},TradeOffer:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "better_traders:mob_buckets",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:5b},TradeOffer:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_ice",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{maxUses:6,buy:{id:\"minecraft:emerald\",Count:6b},TradeOffer:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wet_sponge",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:12b},TradeOffer:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

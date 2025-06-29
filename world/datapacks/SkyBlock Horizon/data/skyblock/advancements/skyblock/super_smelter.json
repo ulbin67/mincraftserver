@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:furnace"
+      },
+      "title": "Super Smelter",
+      "description": "Smelt as many stones as you can."
+    },
+    "parent": "skyblock:skyblock/furnace",
+    "criteria": {
+      "Super_Smelter": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:stone"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }

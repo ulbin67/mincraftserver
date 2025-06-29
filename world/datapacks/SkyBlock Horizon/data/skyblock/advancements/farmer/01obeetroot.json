@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:beetroot"
+      },
+      "title": "Dem Beets",
+      "description": "You be droppin 64 beets."
+    },
+    "parent": "skyblock:farmer/seedy_place",
+    "criteria": {
+      "beetroot": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:beetroot"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

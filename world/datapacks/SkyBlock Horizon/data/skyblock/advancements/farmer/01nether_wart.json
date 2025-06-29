@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:nether_wart"
+      },
+      "title": "Wart Farmer",
+      "description": "Is it contagious?"
+    },
+    "parent": "skyblock:farmer/seedy_place",
+    "criteria": {
+      "wheat": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:nether_wart"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

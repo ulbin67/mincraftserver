@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:glass"
+      },
+      "title": "Glass Collector",
+      "description": "Smelt 64 Sand into Glass"
+    },
+    "parent": "skyblock:collector/sand",
+    "criteria": {
+      "glass": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:glass"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

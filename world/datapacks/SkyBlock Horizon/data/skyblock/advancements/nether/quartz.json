@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:quartz"
+      },
+      "title": "Quartz",
+      "description": "Collect a piece of quartz form a Piglin."
+    },
+    "parent": "skyblock:nether/distract_piglin",
+    "criteria": {
+      "redstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:quartz"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

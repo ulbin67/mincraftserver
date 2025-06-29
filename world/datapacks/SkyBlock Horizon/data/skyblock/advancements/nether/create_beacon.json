@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:beacon"
+      },
+      "title": "Beacon",
+      "description": "Create a beacon!"
+    },
+    "parent": "skyblock:nether/kill_wither",
+    "criteria": {
+      "beacon": {
+        "trigger": "minecraft:construct_beacon",
+        "conditions": {
+          "level": {
+            "min": 1
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,47 @@
+{
+  "parent": "skyblock:recipes/root",
+  "criteria": {
+    "cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobbled_deepslate"
+            ]
+          }
+        ]
+      }
+    },
+    "basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:basalt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:blackstone"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cobblestone",
+      "basalt",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blackstone"
+    ]
+  }
+}

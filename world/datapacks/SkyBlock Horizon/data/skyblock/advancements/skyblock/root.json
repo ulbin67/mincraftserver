@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": "SkyBlock Horizon",
+    "description": "Floating islands in the void.",
+    "background": "minecraft:textures/block/light_blue_wool.png",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "SkyBlock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oak_log"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

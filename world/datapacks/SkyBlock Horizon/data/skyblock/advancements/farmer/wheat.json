@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:wheat"
+      },
+      "title": "Wheat Farmer",
+      "description": "Grow a stack of wheat to craft bread or bread animals."
+    },
+    "parent": "skyblock:farmer/seedy_place",
+    "criteria": {
+      "wheat": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:wheat"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

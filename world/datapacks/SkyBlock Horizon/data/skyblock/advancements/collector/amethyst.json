@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:amethyst_block"
+      },
+      "title": "Amethyst Collector",
+      "description": "Get a stack of amethyst blocks."
+    },
+    "parent": "skyblock:collector/amethyst_cluster",
+    "criteria": {
+      "amethyst_block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:amethyst_block"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

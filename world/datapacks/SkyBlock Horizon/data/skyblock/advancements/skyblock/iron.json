@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_ingot"
+      },
+      "title": "Iron Farm",
+      "description": "Get a stack of iron by making an iron golem farm.",
+      "frame": "goal"
+    },
+    "parent": "skyblock:skyblock/the_cure",
+    "criteria": {
+      "iron": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_ingot"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

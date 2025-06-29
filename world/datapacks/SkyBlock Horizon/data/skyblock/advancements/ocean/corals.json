@@ -1,0 +1,141 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:horn_coral"
+    },
+    "title": "Reef Destroyer",
+    "description": "Kill a Tropical Fish and get every Corals & Coral Fans",
+    "frame": "goal"
+  },
+  "parent": "skyblock:ocean/root",
+  "criteria": {
+    "guardian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:tropical_fish"
+        }
+      }
+    },
+    "brain_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brain_coral"
+            ]
+          }
+        ]
+      }
+    },
+    "brain_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brain_coral_fan"
+            ]
+          }
+        ]
+      }
+    },
+    "bubble_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bubble_coral"
+            ]
+          }
+        ]
+      }
+    },
+    "bubble_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bubble_coral_fan"
+            ]
+          }
+        ]
+      }
+    },
+    "fire_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fire_coral"
+            ]
+          }
+        ]
+      }
+    },
+    "fire_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:fire_coral_fan"
+            ]
+          }
+        ]
+      }
+    },
+    "horn_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:horn_coral"
+            ]
+          }
+        ]
+      }
+    },
+    "horn_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:horn_coral_fan"
+            ]
+          }
+        ]
+      }
+    },
+    "tube_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tube_coral"
+            ]
+          }
+        ]
+      }
+    },
+    "tube_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tube_coral_fan"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

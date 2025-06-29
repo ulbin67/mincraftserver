@@ -1,0 +1,22 @@
+{
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+				"type": "minecraft:item",
+				"name": "minecraft:pumpkin_seeds",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:12,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:pumpkin",
+				"functions": [{
+					"function": "minecraft:set_nbt",
+					"tag": "{maxUses:4,buy:{id:\"minecraft:emerald\",Count:1b},TradeOffer:1b}"
+				}]
+			}
+		]
+	}]
+}

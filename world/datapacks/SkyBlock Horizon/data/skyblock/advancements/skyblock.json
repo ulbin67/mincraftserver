@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Skyblock",
+        "description": "The SkyBlock Horizon datapack.",
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:gamerz_riot",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

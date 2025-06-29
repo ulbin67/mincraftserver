@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:emerald"
+      },
+      "title": "Mr. Trader",
+      "description": "Get a stack of Emeralds!",
+      "frame": "goal"
+    },
+    "parent": "skyblock:collector/root",
+    "criteria": {
+      "emerald": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:emerald"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

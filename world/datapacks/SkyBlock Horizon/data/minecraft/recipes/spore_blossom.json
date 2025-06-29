@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "BCB",
+        " M "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:hanging_roots"
+        },
+        "B": {
+            "item": "minecraft:big_dripleaf"
+        },
+        "C": {
+            "item": "minecraft:cornflower"
+        },
+        "M": {
+            "item": "minecraft:moss_carpet"
+        }
+    },
+    "result": {
+        "item": "minecraft:spore_blossom",
+        "count": 1
+    }
+}

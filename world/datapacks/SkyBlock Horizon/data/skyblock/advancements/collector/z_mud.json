@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:mud"
+      },
+      "title": "Mud Collector",
+      "description": "Get a stack of mud by using Water Bottle on Dirt."
+    },
+    "parent": "skyblock:collector/root",
+    "criteria": {
+      "mud": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:mud"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

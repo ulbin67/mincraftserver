@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:clay"
+      },
+      "title": "Clay Collector",
+      "description": "Drain the water from mud & get 64 Clay."
+    },
+    "parent": "skyblock:collector/z_mud",
+    "criteria": {
+      "gravel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:clay"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

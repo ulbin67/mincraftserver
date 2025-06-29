@@ -1,0 +1,34 @@
+{
+	"display": {
+	  "icon": {
+		"item": "minecraft:gold_nugget"
+	  },
+	  "title": "Gold Skin",
+	  "description": "Anger the Zombified Piglin and get some gold."
+	},
+	"parent": "skyblock:nether/root",
+	"criteria": {
+	  "Pigmen": {
+		"trigger": "minecraft:player_killed_entity",
+		"conditions": {
+		  "entity": {
+			"type": "zombified_piglin"
+		  }
+		}
+	  },
+	  "Gold": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "items": [
+			{
+			  "items": [
+				"minecraft:gold_nugget"
+			  ],
+			  "count": 1
+			}
+		  ]
+		}
+	  }
+	}
+  }
+  

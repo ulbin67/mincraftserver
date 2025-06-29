@@ -1,0 +1,207 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:apple"
+      },
+      "title": "Vegetation",
+      "description": "Collect all types of crops.",
+      "frame": "task"
+    },
+    "parent": "skyblock:skyblock/root",
+    "criteria": {
+      "wheet_seeds": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:wheat_seeds"
+              ]
+            }
+          ]
+        }
+      },
+      "beetroot_seeds": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:beetroot_seeds"
+              ]
+            }
+          ]
+        }
+      },
+      "melon_seeds": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:melon_seeds"
+              ]
+            }
+          ]
+        }
+      },
+      "pumpkin_seeds": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:pumpkin_seeds"
+              ]
+            }
+          ]
+        }
+      },
+      "carrot": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:carrot"
+              ]
+            }
+          ]
+        }
+      },
+      "potato": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:potato"
+              ]
+            }
+          ]
+        }
+      },
+      "sweet_berries": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:sweet_berries"
+              ]
+            }
+          ]
+        }
+      },
+      "suger_cane": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:sugar_cane"
+              ]
+            }
+          ]
+        }
+      },
+      "cactus": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cactus"
+              ]
+            }
+          ]
+        }
+      },
+      "bamboo": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:bamboo"
+              ]
+            }
+          ]
+        }
+      },
+      "cocoa_beans": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:cocoa_beans"
+              ]
+            }
+          ]
+        }
+      },
+      "mushrooms": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:red_mushroom",
+                "minecraft:brown_mushroom"
+              ]
+            }
+          ]
+        }
+      },
+      "kelp": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:kelp"
+              ]
+            }
+          ]
+        }
+      },
+      "nether_wart": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:nether_wart"
+              ]
+            }
+          ]
+        }
+      },
+      "chorous_fruit": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:chorus_flower"
+              ]
+            }
+          ]
+        }
+      },
+      "glow_berries": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:glow_berries"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish_bucket"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish_bucket"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "title": "Diamonds!",
+    "description": "Find diamonds in an End City.",
+    "frame": "goal"
+  },
+  "parent": "skyblock:end/find_end_city",
+  "criteria": {
+    "diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:end_city"
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

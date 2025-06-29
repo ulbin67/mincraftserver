@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:dragon_head"
+      },
+      "title": "Free the End",
+      "description": "Good luck."
+    },
+    "parent": "skyblock:end/root",
+    "criteria": {
+      "killed_dragon": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "ender_dragon"
+          }
+        }
+      }
+    }
+  }
+  

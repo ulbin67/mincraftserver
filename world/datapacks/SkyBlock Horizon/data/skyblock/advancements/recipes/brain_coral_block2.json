@@ -1,0 +1,34 @@
+{
+  "parent": "skyblock:recipes/root",
+  "criteria": {
+    "brain_coral_fan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brain_coral_fan"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:brain_coral_block2"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "brain_coral_fan",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:brain_coral_block2"
+    ]
+  }
+}

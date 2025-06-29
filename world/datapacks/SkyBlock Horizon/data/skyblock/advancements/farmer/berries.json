@@ -1,0 +1,39 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:sweet_berries"
+      },
+      "title": "Taste Of Suger",
+      "description": "Farm Glow & Sweet Berries."
+    },
+    "parent": "skyblock:farmer/seedy_place",
+    "criteria": {
+      "sweet_berries": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:sweet_berries"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      },
+      "glow_berries": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:glow_berries"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:totem_of_undying"
+      },
+      "title": "Immortal",
+      "description": "Die without dieing.",
+      "frame": "challenge"
+    },
+    "parent": "skyblock:skyblock/evoker",
+    "criteria": {
+      "used_totem": {
+        "trigger": "minecraft:used_totem",
+        "conditions": {
+          "item": {}
+        }
+      }
+    }
+  }
+  

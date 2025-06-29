@@ -1,0 +1,30 @@
+{
+	"display": {
+	  "icon": {
+		"item": "minecraft:bee_nest"
+	  },
+	  "title": "Honey Honey!",
+	  "description": "Use a campfire to collect honey without angering the bees."
+	},
+	"parent": "skyblock:farmer/root",
+	"criteria": {
+	  "safely_harvest_honey": {
+		"trigger": "minecraft:item_used_on_block",
+		"conditions": {
+		  "item": {},
+		  "location": {
+			"smokey": true,
+			"block": {
+			  "tag": "minecraft:beehives"
+			}
+		  }
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"safely_harvest_honey"
+	  ]
+	]
+  }
+  

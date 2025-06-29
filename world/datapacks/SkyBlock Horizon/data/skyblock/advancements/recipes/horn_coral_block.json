@@ -1,0 +1,34 @@
+{
+  "parent": "skyblock:recipes/root",
+  "criteria": {
+    "horn_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:horn_coral"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:horn_coral_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "horn_coral",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:horn_coral_block"
+    ]
+  }
+}

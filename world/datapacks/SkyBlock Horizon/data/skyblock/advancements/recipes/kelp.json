@@ -1,0 +1,34 @@
+{
+  "parent": "skyblock:recipes/root",
+  "criteria": {
+    "kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:kelp"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:kelp"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kelp",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:kelp"
+    ]
+  }
+}

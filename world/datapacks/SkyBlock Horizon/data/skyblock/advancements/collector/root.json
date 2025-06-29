@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:ender_chest"
+      },
+      "title": "Collector",
+      "description": "Collect as many items as you can.",
+      "background": "minecraft:textures/block/amethyst_block.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "dirt": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {}
+          ]
+        }
+      },
+      "log": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {}
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "dirt",
+        "log"
+      ]
+    ]
+  }
+  

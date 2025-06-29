@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:pumpkin"
+      },
+      "title": "Pumpkin Farmer",
+      "description": "Harvest 64 pumpkins."
+    },
+    "parent": "skyblock:farmer/seedy_place",
+    "criteria": {
+      "pickel": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:pumpkin"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

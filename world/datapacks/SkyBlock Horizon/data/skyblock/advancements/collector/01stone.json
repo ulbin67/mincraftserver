@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:stone"
+      },
+      "title": "Stone Collector",
+      "description": "Get a stack of stone."
+    },
+    "parent": "skyblock:collector/d_cobblestone",
+    "criteria": {
+      "stone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:stone"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    }
+  }
+  

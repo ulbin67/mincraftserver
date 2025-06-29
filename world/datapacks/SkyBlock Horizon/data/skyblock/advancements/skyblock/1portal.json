@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:obsidian"
+      },
+      "title": "The Portal",
+      "description": "Activate a nether portal using lava and wood."
+    },
+    "parent": "skyblock:skyblock/hardstone_miner",
+    "criteria": {
+      "nether": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "minecraft:the_nether"
+        }
+      }
+    }
+  }

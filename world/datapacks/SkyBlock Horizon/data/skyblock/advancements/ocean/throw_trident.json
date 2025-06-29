@@ -1,0 +1,27 @@
+{
+	"display": {
+	  "icon": {
+		"item": "minecraft:trident"
+	  },
+	  "title": "Trident Toss",
+	  "description": "Throw a trident.",
+	  "frame": "goal"
+	},
+	"parent": "skyblock:ocean/root",
+	"criteria": {
+	  "shot_trident": {
+		"trigger": "minecraft:player_hurt_entity",
+		"conditions": {
+		  "damage": {
+			"type": {
+			  "is_projectile": true,
+			  "direct_entity": {
+				"type": "minecraft:trident"
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  }
+  
